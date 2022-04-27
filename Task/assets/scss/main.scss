@@ -237,7 +237,7 @@ main {
     .about {
         width: 100%;
         height: 550px;
-        background-color: #1abc9c;
+        background-color: #536360;
     }
 }
 
@@ -246,7 +246,7 @@ main {
         .title {
             text-align: center;
             font-size: 35px;
-            color: white;
+            color: rgb(237, 235, 235);
             padding-top: 70px;
         }
     }
@@ -262,7 +262,7 @@ main {
                 width: 100%;
                 max-width: 6rem;
                 height: 0.5rem;
-                background-color: white;
+                background-color: rgb(254, 250, 250);
                 border-radius: 2rem;
                 margin-top: 18px;
 
@@ -374,7 +374,7 @@ main {
     .form {
         .icon {
             .star {
-                color: black;
+                color: rgb(2, 2, 2);
                 font-size: 37px;
                 padding-left: 30px;
                 padding-right: 37px;
@@ -455,10 +455,10 @@ main {
                .btn{
                    padding-right: 640px;
                    button{
-                        background-color:#1abc9c;
+                        background-color:#9fa4a3;
                         padding: 20px;
                         border-radius: 15%;
-                        border: #1abc9c;
+                        border: #5a726d;
                    }
                }
             }
