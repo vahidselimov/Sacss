@@ -1,0 +1,349 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+header .contanier {
+  width: 100%;
+  height: 90px;
+  background-color: #2a5f94;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .contanier .tittle {
+  padding: 40px;
+}
+
+header .contanier .tittle a {
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+header .contanier .link ul {
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .contanier .link ul li {
+  list-style: none;
+}
+
+header .contanier .link ul li a {
+  padding-left: 90px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.contanier .link ul li a:hover {
+  color: #12211a;
+}
+
+main .info1 {
+  width: 100%;
+  height: 500px;
+  background-color: #1f8c76;
+}
+
+main .info1 .imgs {
+  text-align: center;
+  padding-top: 100px;
+}
+
+main .info1 .imgs img {
+  width: 100px;
+  height: 100px;
+}
+
+main .info1 .title2 {
+  color: white;
+  padding-top: 60px;
+  padding-left: 35%;
+  font-size: 90px;
+}
+
+main .info1 .icon {
+  padding-left: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20px;
+}
+
+main .info1 .icon .firstline {
+  width: 100%;
+  max-width: 7%;
+  height: 0.5%;
+  background-color: white;
+  border-radius: 1%;
+  margin-top: 20px;
+}
+
+main .info1 .icon .secondline {
+  width: 90%;
+  max-width: 7%;
+  height: 1%;
+  background-color: white;
+  border-radius: 1%;
+  margin-top: 30px;
+}
+
+main .info1 .paragraf {
+  color: white;
+  font-size: 25px;
+  padding-top: 30px;
+  padding-left: 35%;
+}
+
+main .portfolio {
+  width: 100%;
+  height: 800px;
+}
+
+main .portfolio .title {
+  text-align: center;
+  font-size: 45px;
+  padding-top: 70px;
+}
+
+main .portfolio .icon {
+  padding-left: 650px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 30px;
+}
+
+main .portfolio .icon .firstline {
+  width: 100%;
+  max-width: 7%;
+  height: 0.5%;
+  background-color: black;
+  border-radius: 0.5%;
+  margin-top: 20px;
+}
+
+main .portfolio .icon .star {
+  color: black;
+  font-size: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+main .portfolio .icon .secondline {
+  width: 100%;
+  max-width: 8%;
+  height: 0.5%;
+  background-color: black;
+  border-radius: 1%;
+  margin-top: 20px;
+}
+
+main .portfolio .Rows {
+  padding-top: 5%;
+}
+
+main .portfolio .Rows .row-1 img,
+main .portfolio .Rows .row-2 img {
+  width: 355px;
+  height: 250px;
+  border-radius: 5%;
+}
+
+main .portfolio .Row1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+main .portfolio .Row2 {
+  padding-top: 8%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+main .about {
+  width: 100%;
+  height: 550px;
+  background-color: #1abc9c;
+}
+
+main .about .title {
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  padding-top: 70px;
+}
+
+main .about .icon {
+  padding-left: 670px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 25px;
+}
+
+main .about .icon .firstline {
+  width: 100%;
+  max-width: 6rem;
+  height: 0.5rem;
+  background-color: white;
+  border-radius: 2rem;
+  margin-top: 18px;
+}
+
+main .about .icon .star {
+  color: white;
+  font-size: 30px;
+  padding-left: 25px;
+  padding-right: 30px;
+}
+
+main .about .icon .secondline {
+  width: 100%;
+  max-width: 6rem;
+  height: 0.5rem;
+  background-color: white;
+  border-radius: 2rem;
+  margin-top: 20px;
+}
+
+main .about .aboutinfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 40px 420px;
+}
+
+main .about .aboutinfo .about1,
+main .about .aboutinfo .about2 {
+  width: 300px;
+  height: 140px;
+}
+
+main .about .aboutinfo .about1 p,
+main .about .aboutinfo .about2 p {
+  color: white;
+}
+
+main .about button {
+  margin-left: 45%;
+  background-color: #1abc9c;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4%;
+  padding: 20px;
+}
+
+main .form {
+  width: 100%;
+  height: 1000px;
+}
+
+main .form .title {
+  text-align: center;
+  font-size: 50px;
+  color: black;
+  padding-top: 90px;
+}
+
+main .form .icon {
+  padding-left: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 25px;
+}
+
+main .form .icon .firstline {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.5rem;
+  background-color: black;
+  border-radius: 3rem;
+  margin-top: 18px;
+}
+
+main .form .icon .star {
+  color: black;
+  font-size: 37px;
+  padding-left: 30px;
+  padding-right: 37px;
+}
+
+main .form .icon .secondline {
+  width: 100%;
+  max-width: 5rem;
+  height: 0.25rem;
+  background-color: black;
+  border-radius: 3rem;
+  margin-top: 20px;
+}
+
+main .form .inputs {
+  text-align: center;
+}
+
+main .form .inputs ul {
+  list-style: none;
+}
+
+main .form .inputs ul li {
+  padding-top: 30px;
+  padding-right: 300px;
+}
+
+main .form .inputs ul li input {
+  font-size: 30px;
+  border: none;
+}
+
+main .form .inputs ul li textarea {
+  border: none;
+  font-size: 40px;
+  padding-right: 50px;
+}
+
+main .form .inputs ul {
+  display: inline-block;
+}
+
+main .form .inputs ul hr {
+  width: 100%;
+}
+
+main .form .inputs ul .btn {
+  padding-right: 640px;
+}
+
+main .form .inputs ul .btn button {
+  background-color: #1abc9c;
+  padding: 20px;
+  border-radius: 15%;
+  border: #1abc9c;
+}
+/*# sourceMappingURL=main.css.map */
